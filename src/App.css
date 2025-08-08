@@ -1,0 +1,47 @@
+.title{
+  color : rgb(65, 25, 105);
+  margin-bottom: 2px;
+}
+
+.subtitle{
+  color:rgb(16, 69, 41);
+  font-size:16px;
+  margin-top: 5px;
+
+}
+
+.board{
+  display:grid;
+  grid-template-columns : repeat(3, 100px);
+  gap:6px;
+  margin-top:20px;
+  justify-content:center; 
+
+}
+
+.square{
+  width:100px;
+  height:100px;
+  cursor:pointer;
+  font-size:2rem;
+  font-weight:bold;
+  box-shadow: 2px 2px 5px rgba(4, 4, 4, 0.3);
+
+}
+
+.app{
+  display : flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  height:100vh;
+  width:100vw;
+  background-color: #dff5de;
+}
+
+.restart-btn{
+  background-color :black;
+  color:white;
+  padding :10px 10px;
+  margin-top: 20px;
+}
