@@ -20,7 +20,7 @@ function calculateWinner(squares) {
       return squares[a]; // returns "X" or "O"
     }
   }
-  return null; // no winner yet
+  return null; // no winner  yet
 }
 
 function App() {
